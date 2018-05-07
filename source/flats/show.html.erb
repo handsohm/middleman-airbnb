@@ -6,10 +6,18 @@
 <div class="banner-one" style="background-image: linear-gradient(-225deg, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0) 100%), url('https://kitt.lewagon.com/placeholder/cities/<%= flat.city_slug %>');">
 </div>
 
-<div class="flat-one">
-<%= image_tag "https://kitt.lewagon.com/placeholder/users/#{owner}", class: "img-circle" %>
-<p><%= flat.name %></p>
-<h1><%= flat.description %></h1>
-<p><%= flat.city_name %></p>
+<div class="container-1">
+
+      <div class="photo-name">
+        <%= image_tag "https://kitt.lewagon.com/placeholder/users/#{owner}", class: "img-circle" %>
+      </div>
+      <div class="description-name">
+        <h1><%= flat.description %></h1>
+        <p><%= flat.city_name %></p>
+      </div>
+</div>
+
+<div class="description-flat">
+
 </div>
 

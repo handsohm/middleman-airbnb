@@ -1,19 +1,31 @@
 .banner-one {
   background-size: cover !important;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   height: 60vh;
+  background-position: center;
 }
 
-.flat-one {
-  margin-top: 50px;
-  text-align: center;
-  p {
-    padding: 40px;
-  }
+.container-1 {
+  background-color: white;
+  width: 100%;
+  display: flex;
+  align-content: space-between;
+  padding: 10vh 20vh;
 }
+
+
 
 .img-circle {
-  width: 200px;
+  width: 100px;
+}
+
+.description-name {
+  padding-left: 30px;
+  p {
+  font-size: 14px;
+  opacity: 0.9;
+  font-weight: lighter;
+  }
+  h1 {
+    font-size: 24px;
+  }
 }
